@@ -18,4 +18,4 @@ Usage
 node app --user=bbUser --pass=bbPass --owner=teamOrUserName --folder=./bitbucket-repo-backups --auth=ssh
 ```
 
-Note that all options are mandatory, except `--folder`. It defaults to `./bb-backup`.
+Note that all options are mandatory, except `--folder` and `--auth`. It defaults to `./bitbucket-repo-backups` and https authentication respectively.
