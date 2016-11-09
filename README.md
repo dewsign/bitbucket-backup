@@ -19,3 +19,8 @@ node app --user=bbUser --pass=bbPass --owner=teamOrUserName --folder=./bitbucket
 ```
 
 Note that all options are mandatory, except `--folder` and `--auth`. It defaults to `./bitbucket-repo-backups` and https authentication respectively.
+
+
+## Changelog
+* 0.1.0 Added SSH authentication option as well as fetch and pull commands if repo already exists locally.
+* 0.0.1 Original
