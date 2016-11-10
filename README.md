@@ -15,7 +15,7 @@ npm install bitbucket-backup
 Usage
 --
 ```
-node app --user=bbUser --pass=bbPass --owner=teamOrUserName --folder=./bitbucket-repo-backups --auth=ssh
+node bitbucketbackup --user=bbUser --pass=bbPass --owner=teamOrUserName --folder=./bitbucket-repo-backups --auth=ssh
 ```
 
 Note that all options are mandatory, except `--folder` and `--auth`. It defaults to `./bitbucket-repo-backups` and https authentication respectively.
