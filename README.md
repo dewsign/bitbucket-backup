@@ -22,5 +22,6 @@ Note that all options are mandatory, except `--folder` and `--auth`. It defaults
 
 
 ## Changelog
+* 0.2.0 Changed name from app to bitbucketbackup
 * 0.1.0 Added SSH authentication option as well as fetch and pull commands if repo already exists locally.
 * 0.0.1 Original
